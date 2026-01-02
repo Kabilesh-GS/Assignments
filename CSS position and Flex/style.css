@@ -1,0 +1,108 @@
+*{
+  text-decoration: none;
+}
+header{
+  position: sticky;
+  top: 0;
+  background-color: #00000079;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.navbar ul{
+  display: flex;
+  margin: 0px;
+  list-style: none;
+  justify-content: space-around;
+}
+.navbar ul li a{
+  color: white;
+  font-size: 18px;
+}
+
+.Home{
+  padding-top: 40px;
+  margin-top: 70px;
+}
+.Projects, .Contact{
+  padding-top: 40px;
+  margin-top: 100px;
+}
+.Home h1, .Projects h1{
+  text-align: center;
+}
+.home-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-content p{
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+.home-content img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.project-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+}
+.project-content-des{
+  width: 50%;
+}
+.project-content-des p{
+  text-align: justify;
+}
+
+.contact-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-cont div{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact-cont div h3{
+  flex: 1 ;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px){
+  .home-content{
+    flex-direction: column-reverse;
+  }
+  .home-content p,.project-content-des{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .contact-cont div h3{
+    flex: 1 100%;
+  }
+  .navbar ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
