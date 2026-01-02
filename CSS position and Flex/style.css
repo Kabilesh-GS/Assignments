@@ -20,6 +20,7 @@ header{
 .navbar ul li a{
   color: white;
   font-size: 18px;
+  font-family: "TikTok Sans", sans-serif;
 }
 
 .Home{
@@ -32,6 +33,7 @@ header{
 }
 .Home h1, .Projects h1{
   text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 .home-content{
   display: flex;
@@ -43,6 +45,7 @@ header{
   font-size: 18px;
   line-height: 1.6;
   text-align: justify;
+  font-family: "Special Gothic", sans-serif;
 }
 .home-content img{
   width: 300px;
@@ -60,8 +63,12 @@ header{
 .project-content-des{
   width: 50%;
 }
+.project-content-des h2{
+  font-family: "Special Gothic Condensed One", sans-serif;
+}
 .project-content-des p{
   text-align: justify;
+  font-family: "Special Gothic", sans-serif;
 }
 
 .contact-cont{
