@@ -8,9 +8,7 @@ header{
   padding: 10px;
   border-radius: 10px;
   font-weight: bolder;
-  margin-top: 10px;
 }
-
 .navbar ul{
   display: flex;
   margin: 0px;
@@ -73,19 +71,14 @@ header{
 
 .contact-cont{
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact-cont div{
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 30px ;
 }
-.contact-cont div h3{
-  flex: 1 ;
+
+.contact-cont img{
+  width: 50px;
 }
 
 footer{
