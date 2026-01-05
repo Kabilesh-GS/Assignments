@@ -1,0 +1,158 @@
+@media (max-width: 768px) {
+  h2{
+    font-size: 16px;
+    text-align: center;
+  }
+  article img{
+    width: 200px;
+  }
+}
+
+.header-nav{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-nav  div{
+  background-color: #7A1F1F;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow:  rgb(115, 114, 114) 2px 2px 15px;
+  align-items: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.header-nav  div h2{
+    font-family: "Yesteryear", cursive;
+}
+@media (max-width: 768px) {
+  .header-nav  div{
+    width: 95%;
+  }
+  .header-nav  div h2{
+    display: none;
+  }
+}
+
+.Footer{
+  width: 80;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer div{
+  background-color: rgba(165, 42, 42, 0.798);
+  width: 80%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow:  rgb(128, 128, 128) 2px 2px 15px;
+}
+.Footer div h3{
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .Footer div{
+    width: 95%;
+  }
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  box-shadow:  rgb(114, 113, 113) 2px 2px 15px;
+}
+@media (max-width: 768px) {
+  main .container{
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+}
+
+.sidebar{
+  background-color: #29348c;
+  position: relative;
+    font-family: "Google Sans", sans-serif;
+}
+.sidebar p{
+  color: white;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.navLinks{
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+}
+.navLinks li{
+  list-style: none;
+  margin: 20px 35px;
+}
+.navLinks li a{
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sidebar p{
+    margin: 20px 0;
+    text-align: center;
+  }
+  .navLinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 0px;
+  }
+  .navLinks li{
+    margin: 0 10px;
+  }
+}
+
+.mainContent{
+  background-color: #F5F5F5;
+}
+#about{
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddcdc
+}
+#about div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 60%;
+}
+#about div p{
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  #about div{
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
+
+#lalaland,#thor,#loki,#spiderman,#sakura,#goku{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
