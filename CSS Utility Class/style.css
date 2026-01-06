@@ -1,0 +1,179 @@
+:root{
+  --primary: blue;
+  --good: green;
+  --bad: red;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+.flex-row{
+  flex-direction: row;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.align-center{
+  align-items: center;
+}
+.flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.position-relative{
+  position: relative;
+}
+.position-absolute{
+  position: absolute;
+}
+.position-sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0;
+}
+
+.m-0{
+  margin: 0;
+}
+.m-1{
+  margin: 0.25rem;
+}
+.m-2{
+  margin: 0.5rem;
+}
+.m-3{
+  margin: 0.75rem;
+}
+.m-4{
+  margin: 1rem;
+}
+.m-5{ 
+  margin: 1.25rem;
+}
+
+.p-0{
+  padding: 0;
+}
+.p-1{
+  padding: 0.25rem;
+}
+.p-2{
+  padding: 0.5rem;
+}
+.p-3{
+  padding: 0.75rem;
+}
+.p-4{
+  padding: 1rem;
+}
+.p-5{ 
+  padding: 1.25rem;
+}
+
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+.w-25{
+  width: 25%;
+}
+.w-75{
+  width: 75%;
+}
+
+.h-100{
+  height: 100%;
+}
+.h-50{
+  height: 50%;
+}
+.h-25{
+  height: 25%;
+}
+.h-75{
+  height: 75%;
+}
+
+.bg-white{
+  background-color: white;
+}
+.bg-black{
+  background-color: black;
+}
+.bg-gray{
+  background-color: gray;
+}
+.bg-blue{
+  background-color: var(--primary);
+}
+.bg-red{
+  background-color: var(--bad);
+}
+.bg-green{
+  background-color: var(--good);
+}
+.bg-lightgray{
+  background-color: lightgray;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+.bg-orange{
+  background-color: orange;
+}
+.bg-purple{
+  background-color: purple;
+}
+.bg-lightblue{
+  background-color: lightblue;
+}
+
+.color-white{
+  color: white;
+}
+.color-black{
+  color: black;
+}
+.color-gray{
+  color: gray;
+}
+.color-blue{
+  color: var(--primary);
+}
+.color-red{
+  color: var(--bad);
+}
+.color-green{
+  color: var(--good);
+}
+.color-yellow{
+  color: yellow;
+}
+.color-orange{
+  color: orange;
+}
+.color-purple{    
+  color: purple;
+}
+.color-pink{
+  color: pink;
+}
+.color-brown{
+  color: brown;
+}
+.color-lightgray{
+  color: lightgray;
+}
+.color-lightblue{
+  color: lightblue;
+}
