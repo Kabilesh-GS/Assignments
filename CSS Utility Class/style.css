@@ -1,3 +1,9 @@
+:root{
+  --primary: blue;
+  --good: green;
+  --bad: red;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -105,13 +111,13 @@
   background-color: gray;
 }
 .bg-blue{
-  background-color: blue;
+  background-color: var(--primary);
 }
 .bg-red{
-  background-color: red;
+  background-color: var(--bad);
 }
 .bg-green{
-  background-color: green;
+  background-color: var(--good);
 }
 .bg-lightgray{
   background-color: lightgray;
@@ -139,13 +145,13 @@
   color: gray;
 }
 .color-blue{
-  color: blue;
+  color: var(--primary);
 }
 .color-red{
-  color: red;
+  color: var(--bad);
 }
 .color-green{
-  color: green;
+  color: var(--good);
 }
 .color-yellow{
   color: yellow;
