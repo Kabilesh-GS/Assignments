@@ -11,12 +11,8 @@ This assignment focuses on learning and implementing Bootstrap, a popular front-
 
 ## Project Structure
 ```
-bootstrap-assignment/
+Bootstrap/
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
 └── assets/
 ```
 
