@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WCAG Accessibility</title>
+    <meta name="description" content="WCAG Accessibility Example Page" />
+    <meta name="keywords" content="WCAG, accessibility, example" />
+    <meta name="author" content="Kabilesh" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="d-flex justify-content-around align-items-center mt-4" role="banner" aria-label="header">
+      <h1 aria-label="logo">Kabi</h1>
+      <nav class="d-flex gap-5" aria-label="navigation bar">
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section role="region" aria-label="About section" id="About" class="d-flex flex-column align-items-center">
+        <h2 role="heading" aria-level="2">About</h2>
+        <article role="article" class="d-flex w-75 justify-content-center align-items-center">
+          <p aria-label="About me" role="definition">I’m an active learner with a creative mindset, currently pursuing a B.Tech in Information Technology. My journey is driven by a passion to strengthen my programming skills and apply them both creatively and critically. Beyond academics, I enjoy drawing and sketching, playing football and cricket, and watching movies and series, which helps me balance technical growth with personal interests. I joined in Whizlabs as a Product Trainee, where I’m gaining exposure to how technology, users, and business come together in real-world products. Alongside this, I’ve started exploring artificial intelligence to deepen my understanding of intelligent systems and their impact on technology. My curiosity and drive reflect my commitment to continuous learning and building solutions that make a difference.
+          </p>
+          <img role="img" width="300px" src="Assets/IMG-20251205-WA0026.jpg" alt="Profile Image"/>
+        </article>
+      </section>
+      <section role="region" aria-label="Contact section" id="Contact" class="d-flex flex-column align-items-center justify-content-center">
+        <h2 role="heading" aria-level="2">Contact</h2>
+        <div>
+          <div>
+            <a href="#">Instagram</a>
+            <a href="#">X</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <form>
+            <fieldset>
+              <legend>message me</legend>
+              <label for="email">Email</label><br />
+              <input aria-label="Email input" type="email" id="email" name="email" required /><br /><br />
+              <label for="message">Message</label><br />
+              <textarea aria-label="Message input" id="message" name="message" rows="4" cols="30" required></textarea>
+              <button aria-label="Submit">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
